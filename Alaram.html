@@ -1,0 +1,41 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ALARM</title>
+    <script src="./node_modules/jquery/dist/jquery.min.js"></script>
+    <link rel="stylesheet" href="./node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./node_modules/bootstrap/dist/css/bootstrap-grid.min.css">
+    <link rel="stylesheet" href="./node_modules/font-awesome-4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="./styles/alaram.css">
+    <script src="./scripts/alaram.js" defer></script>
+</head>
+
+<body>
+    <div class="al-div table-responsive">
+        <table id="prodTable" class="table table-sm table-bordered">
+            <thead class="thead-dark">
+                <tr>
+                    <th>Product Id</th>
+                    <th>Product Name</th>
+                    <th>Proposal Date</th>
+                    <th>Delivered Date</th>
+                    <th>Current Status</th>
+                    <th>Priority</th>
+                    <th>Support User</th>
+                    <th>Remarks</th>
+                    <th>Actions</th>
+                </tr>
+            </thead>
+            <tbody id="tbody">
+
+            </tbody>
+        </table>
+        <div class="btn-cu" onclick="appendData()">Add New</div>
+    </div>
+</body>
+
+
+
+</html>

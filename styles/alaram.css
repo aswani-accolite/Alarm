@@ -1,0 +1,57 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    margin: 20px;
+}
+
+.al-div {
+    width: 98%;
+}
+
+.al-div>table {
+    border: 1px solid #ccc;
+}
+
+.disabled {
+    border: none;
+    pointer-events: none;
+}
+
+.contentEd {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.btnDiv {
+    display: flex;
+    align-items: center;
+    justify-content: end;
+}
+
+.show {
+    display: block !important;
+}
+
+.hide {
+    display: none !important;
+}
+
+select {
+    width: 99%;
+    border: none;
+    margin: 1px;
+}
+
+.warning {
+    background-color: yellow;
+}
+
+.btn-cu {
+    padding: 3px 10px;
+    background: #bb505a;
+    display: inline;
+    color: white;
+    border-radius: 3px;
+    cursor: pointer;
+}
